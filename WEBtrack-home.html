@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body {font-family: "Lato", sans-serif;
+background-color:#333;
+
+
+}
+a{
+  text-decoration: none;
+}
+p{
+  color:white;
+}
+h2{
+  color:white;
+  text-decoration: none;
+}
+.mySlides {display: none}
+.row{
+	margin-top:20px;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+::-webkit-scrollbar{
+  width:17px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,#000000);
+  border-radius:7px;
+}
+.web-title{
+	font-size:80px;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">WEB-track</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px" id="web">
+<!--online image link useing that will be showing to below-->
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center" >
+    <img src="https://images.pexels.com/photos/459971/pexels-photo-459971.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%;filter: grayscale(100%);">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h2 class="web-title"><b>WEB-Track</b></h2> 
+
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.pexels.com/photos/3059747/pexels-photo-3059747.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%;filter: grayscale(100%);">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h2 class="web-title"><b>WEB-Track</b></h2> 
+</div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.pexels.com/photos/3874424/pexels-photo-3874424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%;filter: grayscale(100%);">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h2 class="web-title"><b>WEB-Track</b></h2> 
+</div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="container" id="band">
+<a href="E-Commerce.html" style="text-decoration: none;" target="_blank">
+    <div class="row" href="E-Commerce.html">
+      <div class="col-sm-5"><img src ="e-commerce.jpg" class="shadow"style="width:90%;"/></div>
+      <div class="col-sm-7" style="width:auto"><h2>E-Commerce</h2><p>An eCommerce website is a website people can directly buy products from. You’ve probably used a number of eCommerce websites before, most big brands and plenty of smaller ones have one. Any website that includes a shopping cart and a way for you to provide credit card information to make a purchase falls into this category.</p></div>
+    </div>
+</a>
+<a href="business.html" style="text-decoration: none;" target="_blank">
+    <div class="row">
+      <div class="col-sm-7"><h2>Business Website</h2>
+      	<p>A business website is any website that’s devoted to representing a specific business. It should be branded like the business (the same logo and positioning) and communicate the types of products and/or services the business offers.By now, every business out there should have a website. It’s a widespread expectation. Every potential customer you encounter will just assume that if they Google your business looking for more information, they’ll find a website. And if they don’t, it makes the business look less professional or legitimate.</p>
+      </div>
+
+      <div class="col-sm-5"><img src ="business.jpg" class="shadow"style="width:90%;"/></div>
+    </div>
+</a>
+<a href="entertainment.html" style="text-decoration: none" target="_blank">
+    <div class="row" >
+      <div class="col-sm-5"><img src ="entertainment.jpg" class="shadow"style="width:90%;"/></div>
+      <div class="col-sm-7"><h2>Entertainment Website</h2><p>Online social entertainment blends entertaining interactive functionality and content including live video streaming, video chat communications, multi-player gaming, music and videos streaming, with social networking service such as social graph management, forums, reviews, ratings, and geo-location options. It is the foundation for a more immersive, interactive, enriching and engaging content consumption experience through social channels.[1] Social entertainment is distinct from social networking websites in that the former is based fundamentally on immersive engaging experiences with functionality, content and people, while the latter is based primarily on building and maintaining relationships with other users. Typically, social entertainment is defined by the individual sites dedicated to a particular type of entertainment experience incorporating basic social networking services.
+</p></div>
+    </div>
+</a>
+<a href="portfolio.html" style="text-decoration:none;" target="_blank">
+    <div class="row">
+      <div class="col-sm-7"><h2>Portfolio Website</h2><p>An eCommerce website is a website people can directly buy products from. You’ve probably used a number of eCommerce websites before, most big brands and plenty of smaller ones have one. Any website that includes a shopping cart and a way for you to provide credit card information to make a purchase falls into this category.</p></div>
+
+      <div class="col-sm-5"><img src ="portfolio.jpg" class="shadow"style="width:90%;"/></div>
+    </div>
+</a>
+<a href="media.html" style="text-decoration:none;" target="_blank">
+    <div class="row" >
+      <div class="col-sm-5"><img src ="Media.jpg" class="shadow"style="width:90%;"/></div>
+      <div class="col-sm-7"><h2>Media Website</h2><p>Together, social media channels and your website should work seamlessly to promote your online brand. However, if you’re like most businesses, you’re probably missing out on potential interactions, impressions and ultimately sales. In this article, I’ll dive into a quick how-to guide to ensure your business website and social media platforms are working together to maximize your online exposure. I’ve included examples from small- to medium-sized businesses that specialize in a whole host of fields to illustrate that you don’t have to be one of the big players to take advantage of these simple tips</p></div>
+    </div>
+</a>
+<a href="Brochure.html" style="text-decoration:none;" target="_blank">
+
+    <div class="row">
+      <div class="col-sm-7"><h2>Brochure Website</h2><p>Brochure websites are a simplified form of business websites. For businesses that know they need an online presence, but don’t want to invest a lot into it (maybe you’re confident you’ll continue to get most of your business from other sources), a simple brochure site that includes just a few pages that lay out the basics of what you do and provide contact information may be enough for you.</p></div>
+
+      <div class="col-sm-5"><img src ="Brochure.jpg" class="shadow"style="width:90%;"/></div>
+    </div>
+</a>
+<a href="non-profit.html" style="text-decoration:none;" target="_blank">
+    <div class="row" >
+      <div class="col-sm-5"><img src ="non-profit.jpg" class="shadow"style="width:90%;height: 300px;"/></div>
+      <div class="col-sm-7"><h2>Non-Profit Website</h2><p>In the same way that businesses need websites to be their online presence, nonprofits do as well. A nonprofit website is the easiest way for many potential donors to make donations and will be the first place many people look to learn more about a nonprofit and determine if they want to support it. If you have or are considering starting a nonprofit, then building a website for your organization is a crucial step in proving your legitimacy and reaching more people. You can use it to promote the projects your organization tackles, encourage followers to take action, and for accepting donations.</p></div>
+    </div>
+</a>
+<a href="education.html" style="text-decoration:none;" target="_blank">
+    <div class="row">
+      <div class="col-sm-7"><h2>Educational Website</h2><p>The websites of educational institutions and those offering online courses fall into the category of educational websites. These websites have the primary goal of either providing educational materials to visitors, or providing information on an educational institution to them. Some educational websites will have advertisements like entertainment and media websites do. Some offer subscription models or educational products for purchase. And some serve as the online presence for an existing institution.</p></div>
+
+      <div class="col-sm-5"><img src ="education.jpg" class="shadow"style="width:90%;"/></div>
+    </div>
+</a>
+<a href="Infopreneur.html" style="text-decoration:none;" target="_blank">
+
+    <div class="row" >
+      <div class="col-sm-5"><img src ="Infopreneur.jpg" class="shadow"style="width:90%;height:300px;"/></div>
+      <div class="col-sm-7"><h2>Infopreneur Website</h2><p>A couple of decades ago, pursuing self-employment in the information industry was pretty difficult. Starting a publication was cumbersome and costly, blogging wasn’t an option and podcasts hadn’t even been dreamed up. For most aspiring entrepreneurs, making a steady living sharing your professional knowledge with others was an impossible pipe dream.</p></div>
+    </div>
+</a>
+<a href="personal.html" style="text-decoration:none;" target="_blank">
+
+    <div class="row">
+      <div class="col-sm-7"><h2>Personal Website</h2><p>Not all websites exist to make money in some way or another. Many people find value in creating personal websites to put their own thoughts out into the world. This category includes personal blogs, vlogs, and photo diaries people share with the world. Sometimes these websites can evolve into something that makes money if they become popular enough and the person who started them wants to make that shift, but they primarily exist as a way to share your feelings, insights, and art with any friends and strangers that might be interested.</p></div>
+
+      <div class="col-sm-5"><img src ="personal.png" class="shadow"style="width:90%;height:250px;"/></div>
+    </div>
+</a>
+<a href="web-portal.html" style="text-decoration:none;" target="_blank">
+    <div class="row" >
+      <div class="col-sm-5"><img src ="web-portal.png" class="shadow"style="width:90%;"/></div>
+      <div class="col-sm-7"><h2>Web Portal</h2><p>Web portals are often websites designed for internal purposes at a business, organization, or institution. They collect information in different formats from different sources into one place to make all relevant information accessible to the people who need to see it. They often involve a login and personalized views for different users that ensure the information that’s accessible is most useful to their particular needs.</p></div>
+    </div>
+
+</a>
+<a href="wiki.html" style="text-decoration:none;" target="_blank">
+    <div class="row">
+      <div class="col-sm-7"><h2>Wiki or Community forum Website</h2><p>Most people are familiar with wikis through the most famous example of one out there: Wikipedia. But wikis can be created on pretty much any subject you can imagine. A wiki is any website where various users are able to collaborate on content and all make their own tweaks and changes as they see fit. There are wikis for fan communities, for business resources, and for collecting valuable information sources.</p></div>
+
+      <div class="col-sm-5"><img src ="wiki.jpg" class="shadow"style="width:90%;"/></div>
+    </div>
+  </a>
+</div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom" style="color:white;">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="webtrack.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+q

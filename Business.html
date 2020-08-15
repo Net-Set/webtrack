@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body {font-family: "Lato", sans-serif;
+background-color:#333;
+}
+h2{
+  color:white;
+}
+p{
+  color:white;
+}
+li{
+  color:white;
+}
+.mySlides {display: none}
+.row{
+	margin-top:50px;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+::-webkit-scrollbar{
+  width:17px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,#000000);
+  border-radius:7px;
+}
+.web-title{
+	font-size:80px;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> <a href="webtrack-home.html#navDemo" class="w3-bar-item w3-button w3-padding-large">WEB-track</a>
+    <a href="webtrack-home.html#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="webtrack-home.html#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="webtrack-home.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+  <div class="container" class="border-right-2">
+
+    <div class="row">
+      <div class="col-sm-7"><h2>Business Website</h2>
+        <p>A business website is any website that’s devoted to representing a specific business. It should be branded like the business (the same logo and positioning) and communicate the types of products and/or services the business offers.By now, every business out there should have a website. It’s a widespread expectation. Every potential customer you encounter will just assume that if they Google your business looking for more information, they’ll find a website. And if they don’t, it makes the business look less professional or legitimate.</p>
+      </div>
+        <div class="col-sm-5"><img src ="business.jpg" class="shadow"style="width:90%;"/></div>
+    
+    </div>
+ <div class="container" class="border-right-2">
+    <div class="row">
+      <div class="col" style="width:auto"><h2>Create a Business Website in 8 Steps</h2>
+       <ol> 
+        <li><p>Get a domain name.</p></li>
+        <li><p>Get a personalized business email address.</p></li>
+        <li><p>Choose a business website builder.</p></li>
+        <li><p>Pick a template</p></li>
+        <li><p>Populate your business website with your content.</p></li>
+        <li><p>Add apps for extra functionally.</p></li>
+        <li><p>Optimize your site for search engines.</p></li>
+        <li><p>Publish' .. then monitor,adjust and update.</p></li>
+      </ol>
+      </div>
+    </div>
+  </div>
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>1.Get a domain name </h2>
+        <p>
+          A domain name is your website’s unique address.
+
+While it is very common for businesses to have domain names that are the same as their business names (such as walmart.com), you can pick a domain name to include any text phrase you want, as long as it’s not already been taken.
+
+For example, the domain name for our website is www.websitebuilderexpert.com. For businesses, it’s important to think about how your domain will be relevant to what you do. It’s the first contact a lot of people will have with your site, so make it count.
+        </p>
+        <p>There are two costs associated with getting your own domain name:</p>
+        <ol>
+          <li><p>The cost of buying a domain name.</p></li>
+          <li><p>The cost of keeping your domain name registered every year.</p></li>
+        </ol>
+      </div>
+    </div>
+   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>2.Get a personalized business email address</h2>
+        <p>To make your business look more professional and established, you’ll need a custom business email address. For example, yourname@yourbusiness.com instantly makes your business appear more established and credible than yourname@gmail.com. </p>
+        <p>
+          The most common formate for business email addresses actually uses you business domain name.
+        </p>
+        <p>
+          For example,our email address is
+          info@websitebuilderexpert.com
+        </p>
+
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>3.Choose a business </h2>
+
+        <p>Now, on to one of the most important steps: choosing your website builder!
+
+It’s important to mention at this point that there isn’t a ‘one size fits all’ solution when it comes to choosing the right business website builder. Different businesses will have vastly different needs – a trendy new restaurant, for example, will require something totally different from a small law firm.
+
+That said, having tested over 50 website builders, we can confidently say that Wix is our top choice for building a business website, with Squarespace and Weebly also great options. You can’t go far wrong if you pick any one of these platforms, but you can check out our best website builders for business article for even more choice.
+        </p>
+       </div> 
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>4. Build your pages </h2>
+        <p>A good website is more than a static home page. You'll want to create multiple pages dedicated to different aspects of your business, such as a detailed catalog of your products or services, or a blog section for company updates. As for your overall website, you want to be sure each page supports the primary goal of the website, has a clear purpose and includes a call to action (e.g., learn more, sign up, contact us or buy this).
+
+A contact page, your customers' direct link to you, is one of the most important sections of a website, so make sure you include as much information as you can (phone number, email address and physical location, if applicable). It's also a good idea to include information about the founding team or staff on an "About" page to help customers put real names and faces to your brand.
+        </p>
+        <ol>
+        <li><a href="https://www.wix.com"><h2>Wix.com</h2></a></li>
+
+        <li><a href="https://www.squarespace.com"><h2>Squarespace</h2></a></li>
+        <li><a href="https://www.weebly.com"><h2>Weebly</h2></a></li>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>4.Pick a template </h2>
+        <p>Now you’ve chosen your website builder, it’s time to pick your template. This is our favorite step, as it’s the first time you’ll get a real sense of how your business website could look.
+
+Your template (or ‘theme’, as they’re sometimes called) will act as your design springboard.
+
+If you build with Wix, you’ll have total freedom to customize this template however you want, which means – for better or worse – you could end up with something completely different to what you started with. Squarespace isn’t so keen to hand over the creative reins, so you’re a little more limited in how you can alter your template – but that’s no bad thing, given that Squarespace’s templates are award-winning. In terms of customization potential, Weebly sits somewhere in the middle.
+
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>5.Populate your business website with your own content
+</h2>
+        <p>By now, you should have experimented with a few different templates and settled on your final choice. Nice!
+
+Now it’s time to make this generic template your own by swapping out all the placeholder content for yours, and adding any extra pages or sections.</p>
+<p>In terms of pages all business websites will need:</p>
+<ol>
+  <li><p><b>A strong homepage.</b> Visitors should be able to work out what you do quickly, and navigate to other sections smoothly.</p></li>
+
+  <li><p><b>An informative ‘About Us’ page.</b> Tell people your story, and add pictures of your team.</p></li>
+
+  <li><p><b>A clear ‘Contact’ page.</b> Customers need to know where they can find you, and how best to reach you.</p></li>
+
+</ol>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>6.Add apps for extra functionality</h2>
+        <p>Now that you’ve sorted out your pages and populated them with your own content, it’s time to add in some extra features.
+
+This is normally done through adding ‘apps’ from the builder’s own app market, although some only offer inbuilt features.</p>
+<p>But what exactly do we mean by extra functionality? Here are some examples of handy apps and features that we think can work well for business websites:</p><ol><li><strong>Forms </strong>– this gives your customers an alternative way to contact you, and helps you organize your enquiries. You can also encourage people to sign up for email communication.</li><li><strong>Social media integration</strong> – whether it’s in the form of buttons linking to your social accounts, an embedded Instagram gallery, or a live Twitter feed, there’s an app for that.</li><li><strong>Cookie alerts</strong> – be transparent with your visitors about how you’re using their data, and give them the option to change this.</li><li><strong>Live chat </strong>– another useful (and increasingly popular) way to connect with your customers in real time.</li><li><strong>Google Maps</strong> – an interactive map to help your customers find you.</li><li><strong>Customer testimonials</strong> – show customer comments and testimonials on your site. Adding social proof to your website will boost trust and conversions.</li></ol> </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>7.Optimize your site for search engines
+</h2><p>Earlier in this article, we briefly touched upon making your website appealing for Google, when we spoke about the benefits of adding a blog. Now, we’re going to take a much more detailed look at which SEO (Search Engine Optimization) measures you should be taking for your site, and why.</p><p>You see, it’s all very well and good having a beautiful website, and adding that all-important contact page to encourage your customers to connect with you. You can even add an interactive Google Map app that will lead them to your door. But if your customers never see your website because it never makes it to page one of the search engine results, then all your hard work will be in vain.</p><p>When you type a search term like ‘best brunch in Chicago’ into Google’s search bar, a complex algorithm decides on the results you’re presented with, and their order. This algorithm takes a huge number of factors into account (the number is thought to be higher than 200), but there are some simple steps you can take to make sure Google recognizes your website as relevant and useful for search terms that apply to your business:</p><ol><li><strong>Make sure your site loads quickly&nbsp;</strong></li></ol><p>Users don’t like slow websites – the majority will abandon your site if it takes <a href="https://www.dotcom-tools.com/blog/how-fast-should-my-website-load/" target="_blank" rel="noopener noreferrer">longer than 3 seconds</a> to fully render – and therefore neither does Google. Make sure you ‘compress’ any images you upload – this is an easy way to reduce file size in just a few seconds, without visually compromising image quality. Our favourite tool for this is <a href="https://kraken.io/" target="_blank" rel="noopener noreferrer">kraken.io</a>.</p><p>Run your page through a free page load speed tool (we like <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener noreferrer">PageSpeed Insights</a> by Google) to identify any problem areas.</p><ol start="2"><li><strong>Don’t forget about mobile&nbsp;</strong></li></ol><p>More Google searches are now carried out via mobile than via desktop, so it’s crucial that your site reformats well for smaller screens. A ‘mini’ version of your desktop site won’t cut the mustard; elements and text will be too small, and Google will penalize you for the poor user experience. All the website builders we’ve included on this list have fully mobile-responsive templates, so should reformat automatically – just be sure to test this out before you hit publish.</p><ol start="3"><li><strong>Use keywords (sparingly)&nbsp;</strong></li></ol><p>If you want to be found based on key terms, it makes sense to know what terms people are searching for, and to include them in your own content. You can use a free keyword finder like <a href="https://ads.google.com/intl/en_uk/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer">Google Ads Keyword Planner</a> to identify particularly popular searches.</p><p>Going back to our brunch example, you might find that ‘best breakfast in Chicago’ has a measly search volume of 10 users per month, but ‘best brunch in Chicago’ is way more popular, with hundreds of monthly searches.</p><p>Once you’ve found a few popular (and <em>relevant</em>) key terms, it’s time to make sure they’re included within your content. Proceed with caution here; add too many mentions of these terms and your content will appear clunky, and Google will penalize you for ‘keyword stuffing’. If it feels too unnatural, just keep creating good content, and trust Google to join the dots – its algorithm is getting smarter <em>literally</em> every day!</p><p>We could go on for a long, long time about best SEO practices, but it’s important to know that <strong>all of Google’s ranking factors hinge on quality and user experience</strong> – so if you prioritize that, you can’t go too far wrong.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" styl="bottom:40px;">
+    <div class="row">
+      <div class="col">
+        <h2>8.Publish!... Then monitor, adjust, and update</h2>
+        <p>
+          So you’ve followed our advice to the letter, and you now have a beautiful business website ready to send out into the world – kudos! 
+
+Give it one last preview – using the mobile, tablet, and desktop view, and on a variety of browsers – then hit publish. But before you tell the world and share it with your social media followers, get your friends and family on the case for some urgent user testing. You can check your site in preview mode all you want, but sometimes issues will only become apparent after you publish – and it’s better to get these ironed out as soon as possible.
+
+Once you’re confident that everything’s working well, your friends and family are suitably impressed at your DIY website building skills, and your traffic is on its way from a slow trickle to a steady stream, it’s time to sit back, relax, and bask in your success…
+
+…but not for too long! That’s because – we’re sorry to tell you – there’s simply no such thing as a ‘finished website’.
+
+Not only do you need to keep on top of updates – uploading new blog posts, adding new projects or new services, updating your About Us page with new team members or achievements – but you need to monitor how people are using your site, and take steps to improve their experience.
+        </p>
+        <p>There are three tools we'd recommend for this:</p>
+        <ol>
+          <li>Google analytics</li>
+          <li>Hotjar</li>
+          <li>Optimizely</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      </div>
+    </div>
+  </div>
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

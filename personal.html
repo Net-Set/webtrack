@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body {font-family: "Lato", sans-serif;
+background-color:#333;}
+h2
+{
+  color:white;
+} 
+h3 
+{
+  color:white;
+}
+h4{
+  color:white;
+}
+p{
+  color:white;
+}
+
+.mySlides {display: none}
+.row{
+	margin-top:50px;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+::-webkit-scrollbar{
+  width:17px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,#000000);
+  border-radius:7px;
+}
+.web-title{
+	font-size:80px;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> <a href="webtrack-home.html#navDemo" class="w3-bar-item w3-button w3-padding-large">WEB-track</a>
+    <a href="webtrack-home.html#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="webtrack-home.html#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="webtrack-home.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+    <div class="container">
+
+    <div class="row" >
+      <div class="col-sm-5"><img src ="personal.png" class="shadow"style="width:90%;"/></div>
+      <div class="col-sm-7"><h2>Personal website</h2><p>Not all websites exist to make money in some way or another. Many people find value in creating personal websites to put their own thoughts out into the world. This category includes personal blogs, vlogs, and photo diaries people share with the world.
+
+Sometimes these websites can evolve into something that makes money if they become popular enough and the person who started them wants to make that shift, but they primarily exist as a way to share your feelings, insights, and art with any friends and strangers that might be interested.</p></div>
+    </div>
+    <div class="row">
+      <div class="col">
+       <h2>How to build a personal website, step-by-step</h2>
+
+
+
+<p>Now that we know what we want our site to be, it’s time to actually get it online! I’m going to use Constant Contact’s <a>website builder</a>. I’m able to use it without having to worry about the technical stuff like coding or making sure my domain is secure. The website builder handles all of that for me behind-the-scenes so I can simply drag and drop elements onto my website and let the A.I.-powered builder give me design options.</p>
+
+
+
+<h3>Step 1: Set up your site</h3>
+
+
+
+<p>When you open Constant Contact’s website builder, you’ll be asked to pick a category and a name for your site. I’m going to select “Personal” for the category and for the name, I’ll simply use my own name.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/l2FEndzopD-fMWEo0ry1T5U4y1QLDpVHX91wr43fJSDhp3xjb6JMY5TRb0PEEkVwWAcI1t787C-s27JKhH_-IwzSsKqMlFZvN1xoAr9EW1r4Zft8sX43Rd6nv2TOK2xkEUlCSe8W" alt="Website builder setup" class="col-sm-12"/><figcaption>Our website builder walks you through a quick set-up process step-by-step to get you online fast.</figcaption></figure>
+
+
+
+<p>And voila! I already have a basic website created that I can use as a jumping-off point. Of course, I’ll still need to edit the text and images, but we’ll get to that later. For now, I’ll follow the remaining steps in the setup process:</p>
+
+
+
+<h4>Select a cover image</h4>
+
+
+
+<p>Your cover image is the main image at the very top of your homepage. As a placeholder, the website builder has used the above image of hands coming together. I want to use something that showcases my personality in some way, so I chose a freely-usable image from <a >Unsplash</a>. </p>
+
+
+
+<p>I chose a simple image since I can already see it is going to have text and a navigation menu on top of it. I can always change it to something else later when the rest of my homepage is filled out a bit.</p>
+
+
+
+<h4>Upload a logo (optional)</h4>
+
+
+
+<p>It’s up to you if you want to have a logo or icon for your personal website. Sometimes a basic logo can help to reinforce your personal brand, but it’s not necessary for a personal website. If you have a logo, this is your chance to upload it. If you don’t have a logo, you can create one quickly and easily using our <a>logo maker</a>.</p>
+
+
+
+<p>I decided to use the logo maker to create a very basic icon using my initials — “JL.”</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/IM_SEFmIsUvvC3tOrkGwLxlT0aKxnL3e334eyXzkq2NIag_JrdafovQ8uPYUWOSKx7TmdXHAMnavsTsYL_L-fVFsxfgil-DWkBP58MN81bLm4zIBKFrwEQ6QPrQZTxJy2cIE-f_2" alt="Free logo maker for personal logo" class="col-sm-12"/><figcaption>Constant Contact has a <a rel="noreferrer noopener" aria-label="free logo maker (opens in a new tab)" href="https://www.constantcontact.com/website/logos/" target="_blank">logo maker</a> that generates virtually limitless options for logos that you can customize to fit your personality.</figcaption></figure>
+
+
+
+<h4>Choose your site colors</h4>
+
+
+
+<p>Next, you’ll pick a color theme. This will determine the colors used across your entire website, including text, background colors, buttons, and more. The choice is completely up to you. Just click through the options until you find something you like. If you can’t find colors that look good with your cover image, don’t worry. As I said, you can always go back and change your cover image later.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/hfwYfQJsywePsq5jdgsYh4rVaMnmHP-QzaT6XUQ-Kt7Bo6mHU9qzieJfKSm2FicpYRejXsCI8iXvubKT8ks082-awFNhnyF2dfDld-5XGwnwIeODPBYXNIrlWxq9lq46nU-T00xH" alt="Website builder color options" class="col-sm-12"/></figure>
+
+
+
+<h4>Choose your navigation style</h4>
+
+
+
+<p>The navigation style determines the look and layout of your navigation menu — the buttons and text at the top of the page that visitors use to navigate your website.</p>
+
+
+
+<h4>Select a font pair</h4>
+
+
+
+<p>Now it’s time to select the two fonts that will be used on your website —&nbsp;one for headings and titles, and another for the rest of your text. The easiest way to choose a font you like? You guessed it! Click through the options until you’re happy with how your site looks.</p>
+
+
+
+<h4>Enter your contact details (optional)</h4>
+
+
+
+<p>This is the last step in the website setup process. Fill out any contact information that you want visitors to your website to be able to see. It’s up to you what to include, but be aware that any information you enter here is public by default, so be wary of including your personal phone number, email, or address.</p>
+
+
+
+<p>I’m going to leave my personal contact information off of my site. Instead, I’ll use a contact form on my contact page. That way, visitors to my site have a way to reach out to me, but I don’t have to blast my cell phone number and personal email across the internet.</p>
+
+
+
+<h3>Step 2: Set up your pages</h3>
+
+
+
+<p>Take a quick moment to celebrate — we have a website! That was easy, right?</p>
+
+
+
+<p>Before I jump into editing the content, I want to make sure I have my pages set up correctly. From my planning, I know I’ll want to have four pages on my website:</p>
+
+
+
+<ul><li>An About Me page</li><li>A Contact Me page</li><li>A Portfolio page</li><li>A Blog</li></ul>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/X-F0kEgmqWvOiIyZ4mMffVWLBHE_fghlmnFbSH0TL7Lbsra0IKIjreo-RdrUb_ILhHiITM3BHaBrYOcO2TL63D8l4EwSzt4V-EYhhKUBIVaXrB57srXMKij5Pj-I0IGe4gKYih0g" alt="website builder pages" class="col-sm-12"/><figcaption>The website builder allows you to view all pages on your site at once, so you can get an overall picture of what your personal website looks like.</figcaption></figure>
+
+
+
+<p>By default, the website builder has created three pages, based on me selecting the category of “Personal” website earlier. The default pages are Home, Services, and Contact me. I’ll keep Home and Contact Me, but I’ll delete Services since it doesn’t fit my goals for my site. To delete the page, I’ll simply click on the trash icon in the top right corner of it.</p>
+
+
+
+<h4>Add your pages</h4>
+
+
+
+<p>Next, I need to add my three missing pages: The About Me page, the Blog, and a Portfolio. I’ll start with the About Me page. To create a new page, I’ll click the plus sign in the top left corner of the builder, appropriately labeled “New page.” Rather than filling in the content on this page now, I’m going to leave it blank and edit it later.</p>
+
+
+
+<p>I’ll do the same thing to create my Blog and Portfolio pages, before going back to work on my homepage.</p>
+
+
+
+<h3>Step 3: Edit your homepage</h3>
+
+
+
+<p>The homepage is the very first page visitors see when they visit your site, so naturally, it makes sense to edit that first. Click on your homepage and you’ll be able to start editing text and images, adding new sections to the page, and choosing layout options. Make sure to pay close attention here because this is the same method you’ll use when you edit all the other pages on your site.</p>
+
+
+
+<h4>Plan your homepage</h4>
+
+
+
+<p>Before I start adding, removing, and revising content, I’ll think about what I want my homepage to include. Most of the content that’s important for me to include will live on my other pages — Contact Me, About Me, and Blog — so my homepage can be very basic.</p>
+
+
+
+<p>Here are the three things it’s important to me to have on my homepage:</p>
+
+
+
+<ol><li>A basic greeting, telling people what site they are on and what they can expect from it</li><li>Clear navigation so visitors can find the pages they are interested in viewing (luckily, the navigation menu is already included for me)</li><li>A brief description of myself with a photo — I’ll save the full bio for the About Me page.</li></ol>
+
+
+
+<p>And that’s it for now. If I determine later that I need more content on my homepage, I can always go back and add it later.</p>
+
+
+
+<h4>Set up your homepage structure</h4>
+
+
+
+<p>Knowing what I want to have on my homepage, I can now go through and delete the sections I don’t need. Looking at the three elements I want on my homepage, I know the first two — a basic greeting and clear navigation — are already included in the header (the very first section at the top of your homepage). That means that, aside from the header and footer, I only need one section on my homepage — a brief personal description.</p>
+
+
+
+<p>I’ll start by deleting sections that I won’t use by clicking the trash can icon in the top right corner of each section. In fact, since I only need one section, I’ll delete all other sections on the page, leaving me with just the header and footer.</p>
+
+
+
+<p>To add my personal description section, I’ll click the blue plus sign (+) button just below the header.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/4aIePprufo1a2XjZvxAxNulKTlItDizvz_9CZetBx3jgI2a9pdQbx0rqUnyDsWv-XcFjD3t5spZk-Gt7H2M9q0cIEVIDTaB3Zhkv--pjS_5_CcYKd7Vzvivav-Xg0EL1OXvZNhC_" alt="Add a section to your website with website builder." class="col-sm-12"/><figcaption>After clicking the plus sign (+), you can choose from a large selection of pre-built page sections, all with multiple layouts and design options.</figcaption></figure>
+
+
+
+<p>This opens up a menu of new sections that you can add to your page. For my personal description, I’m going to choose a simple media/text section. Once I click on the section — boom! — it’s added to my homepage. Before I edit it, I’m going to scroll back up and start by editing my header.</p>
+
+
+
+<h4>Edit your header</h4>
+
+
+
+<p>Now it’s time to start customizing individual sections on our homepage. To start, I’ll edit the header. This is the top section of the homepage and it’s the first impression you’ll make on your visitors. Click on the section and a menu will pop up on the right that allows you to make adjustments, including removing elements you don’t need from the section. I’ll click off the elements I don’t need in my header.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/U8BRh7yaqf2LibsPFviBptV1I3dBf-khoXIgNn-nX19t6emzVvLikXyAZTwAAH92gmnCTQrhMrT0XYHLz7q_yUAbev6SJRLgzBtHmGKsIgjTwPWUjVkPSJLUIKb_MnZ4Hb_FCZg-" alt="website builder header customization" class="col-sm-12"/><figcaption>Every section on your website can be customized to include what you need and exclude what you don&#8217;t need.</figcaption></figure>
+
+
+
+<p>Next, I’ll click on the text to edit it into something that fits me. If you want to further edit the appearance of your header, you can click the “Background” tab in the right-hand menu. This is where you can change your cover photo if you want to, or even use a solid color, a pattern, or a video as the background content instead.</p>
+
+
+
+<p>After making all of my adjustments, including switching out my cover image for a simple Monstera pattern I found on Unsplash, here’s what my new header looks like:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/DTjIvjn0gc_vCSD11-a5DHGFijN78vpOI4ZO6uRBTd7AtgnHNhn9dx7Sos9_Lx88ETCcWqjweo6e_dnutzpK2bKrVRhfNnBuAlBed4NUZTED2idlUMNcjh9mUjYgxCtS04BC01F3" alt="Personal website header section." class="col-sm-12"/><figcaption>My updated homepage header is simple, clean, and includes everything I planned for.</figcaption></figure>
+
+
+
+<h4>Edit the other sections on your homepage</h4>
+
+
+
+<p>If you’re still with me, I have great news — you already know how to edit the rest of your website!&nbsp;</p>
+
+
+
+<p>The other sections on your homepage (and your other pages) can be adjusted the same way we edited the header.</p>
+
+
+
+<p>With each section you’ll want to:</p>
+
+
+
+<ol><li>Look at the settings and turn off any elements you don’t need in that section</li><li>Adjust the layout and background options to your liking</li><li>Edit the text and images</li></ol>
+
+
+
+<p>Let’s follow this process for my personal description section on my homepage. Here’s what the section looks like before I start editing it:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/zO2xox3o0C5bmqo6DQTwxBbpNUcXxW7inWu4BBeZyrkGhIB42MlXb-OWHYuH-CDYpPdWW0ridA3o3C4J7qL7XAxed9EoikAWU9ky5LBf35dXIn1rrjusjNmmi3DxbQmwjhvjVLeK" alt="Edit sections on personal website" class="col-sm-12"/><figcaption>You can edit the text and images in each section on your personal website by simply clicking on them!</figcaption></figure>
+
+
+
+<p>I’ll change the title text to be a simple greeting, edit the rest of the text to be a brief personal introduction, and make the button link to my About Me page, where visitors can read a more complete bio. I’m also going to swap out the photo for a personal headshot.</p>
+
+
+
+<p>Now that I’ve edited the content, I can explore different layout options by clicking the layout icon in the top right of the section.</p>
+
+
+
+<figure class="img-responsive"><img src="https://lh6.googleusercontent.com/h1AvCOdi5uKakPcTlYMJNo3rMz6A5GPv0P7ShnUObsNVibYjZh5_xGTfiBFAC8OZsB35UdjBULrx-AlEFfqifxENvlrNuNMkmymc7SSQ9SqssXZ4Zg8bvU0sbc5aXdvWbv_992tR" alt="Personal website layout options" class="col-sm-12"/><figcaption>Every section in the website builder has multiple layout options that you can scroll through until you see something you like.</figcaption></figure>
+
+
+
+<p>Now all that’s left for me to do is edit the footer, the very bottom section of my homepage. I’ll follow the same steps as I did with the other sections and that’s it — my homepage is complete!</p>
+
+
+
+<h3>Step 4: Edit your other pages</h3>
+
+
+
+<p>Now that you know how to add, remove, and edit sections, you’re ready to finish the other pages on your website. To edit another page, simply click the page name in the top navigation menu of your website.</p>
+
+
+
+<p>I’ll follow the same steps that I used to edit my home page to finish my About Me, Portfolio, Blog, and Contact Me pages. There’s a lot of content I plan to have on my website eventually, but for now, I’ll add just enough to get me started, knowing I can continue to build on it over time.</p>
+
+
+
+<h3>Step 5: Publish your personal website!</h3>
+
+
+
+<p>This is the exciting part. The first draft of my personal website is finished and I’m ready to publish! To do so, I’ll just click the blue “Publish” button in the top right corner of the website builder.&nbsp;</p>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+  </div>
+  </div>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

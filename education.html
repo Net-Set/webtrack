@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body {font-family: "Lato", sans-serif;
+background-color:#333;
+}
+p{
+  color:white;
+
+}
+h2{
+  color:white;
+}
+li{
+  color:white;
+}
+.mySlides {display: none}
+.row{
+	margin-top:50px;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+::-webkit-scrollbar{
+  width:17px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,#000000);
+  border-radius:7px;
+}
+.web-title{
+	font-size:80px;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> <a href="webtrack-home.html#navDemo" class="w3-bar-item w3-button w3-padding-large">WEB-track</a>
+    <a href="webtrack-home.html#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="webtrack-home.html#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="webtrack-home.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+    <div class="container">
+
+    <div class="row" >
+      <div class="col-sm-5"><img src ="education.jpg" class="shadow"style="width:90%;"/></div>
+      <div class="col-sm-7"><h2>Education Website</h2><p>The websites of educational institutions and those offering online courses fall into the category of educational websites. These websites have the primary goal of either providing educational materials to visitors, or providing information on an educational institution to them.
+
+Some educational websites will have advertisements like entertainment and media websites do. Some offer subscription models or educational products for purchase. And some serve as the online presence for an existing institution.</p></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>Three Types of Educational Websites
+</h2>
+        <ul><li><strong>A School or College Website</strong> gives the information about the school, students, teachers, courses, and classes they offer.</li><li><strong>An Online Education Portal</strong> offers study materials, live classes, and tutorials for students.</li><li><strong>A Membership Website for Education</strong> is the one where students can login and take their classes online, see their grade information, and submit their assignments. Instructors can create, manage courses, take online and offline classes for their students, and monitor the students.</li></ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>Three Types of Educational Websites</h2>
+        <p>These are some of the elements that most of the educational websites have in common.</p><ul><li><strong>Home Page</strong> – It is the front page of the website where you can put school’s logo, images, important notices, and events information.</li><li><strong>About page</strong> – You can give information about the history of your school, the location, certification, etc. through this page.</li><li><strong>Courses </strong>– In this page, you can give detailed information about courses your school offers.</li><li><strong>Faculty bio and information</strong> – Here, you can give information about the teachers and team members of your education institution.</li><li><strong>Registration form</strong> – This form is for students to sign up for classes in your school.</li><li><strong>Contact form</strong> – You can create an inquiry form for prospective students and site visitors to contact your school.</li></ul>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+  </div>
+  </div>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
